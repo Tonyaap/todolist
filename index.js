@@ -9,7 +9,7 @@ const TodoList = require("./models").todoList;
 
 app.use(express.json());
 
-app.get("/users/todoLists", async (req, res, next) => {
+app.get("/todoLists", async (req, res, next) => {
   try {
     const todoLists = await TodoList.findAll();
     res.json(todoLists);
