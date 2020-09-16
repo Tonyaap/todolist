@@ -1,0 +1,16 @@
+{
+  "development": {
+    "url": "postgres://yotwokth:sxiHd8BFZCPf5Ib1KkF7p9AyT0iOOwZO@balarama.db.elephantsql.com:5432/yotwokth",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
